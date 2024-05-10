@@ -28,6 +28,9 @@ public class Inicial {
         }
     }
 
+
+
+    
     // public void imprimirInicialApellido() {
     //     Scanner sc = new Scanner(System.in);
     //     longitud = Integer.parseInt(sc.nextLine());
