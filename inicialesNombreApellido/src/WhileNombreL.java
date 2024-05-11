@@ -1,6 +1,7 @@
 public class WhileNombreL {
 
     public void whileInicalNombre(int tamañoInicial, char signo) {
+        System.out.println(" Inicial L con While");
         int filas = 0;
         while (filas <= tamañoInicial) {
             if (filas == tamañoInicial) {

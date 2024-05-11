@@ -1,24 +1,24 @@
-public class ForNombreApellidoLA {
+public class WhileNombreApellidoLA {
 
-    public void metodoChat(int nivelDeseado, String signo) {
-
-        System.out.println("Inicales L y A con For");
-        // Imprimir la letra L y la letra A juntas
-        for (int fila = 1; fila <= nivelDeseado; fila++) {
+    public void whileNombreApellidoLA(int nivelDeseado, char signo) {
+        System.out.println("Iniciales L y A con while");
+        int fila = 1;
+        while (fila <= nivelDeseado) {
+            int col = 1;
             // Imprimir la letra L
-            for (int col = 1; col <= nivelDeseado; col++) {                
+            while (col <= nivelDeseado) {
                 if (col == 1 || fila == nivelDeseado) {
                     System.out.print(signo + " ");
                 } else {
                     System.out.print("  ");
                 }
+                col++;
             }
-
             // Espacio entre las letras L y A
             System.out.print("  ");
-
+            col = 1;
             // Imprimir la letra A
-            for (int col = 1; col <= nivelDeseado; col++) {
+            while (col <= nivelDeseado) {
                 if ((fila == 1 || fila == nivelDeseado / 2 + 1) && col <= nivelDeseado) {
                     System.out.print(signo + " ");
                 } else {
@@ -28,12 +28,11 @@ public class ForNombreApellidoLA {
                         System.out.print("  ");
                     }
                 }
+                col++;
             }
             System.out.println(); // Salto de línea al final de cada fila
+            fila++;
         }
-
         System.out.println();
-
     }
-
 }

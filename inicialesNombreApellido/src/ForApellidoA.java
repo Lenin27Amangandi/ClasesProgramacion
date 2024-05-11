@@ -2,7 +2,7 @@ public class ForApellidoA {
     public void inicialApellido(int alturaInicial, char signo) {
 
         System.out.println();
-        System.out.println(" Inicial Apellido ");
+        System.out.println(" Inicial A con un for");
         System.out.println();
         for (int nivel = 1; nivel <= alturaInicial; nivel++) {
             for (int columna = 1; columna <= alturaInicial; columna++) {
