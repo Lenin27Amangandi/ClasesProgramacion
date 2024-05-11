@@ -5,6 +5,7 @@ public class App {
 
         lenin.ingresodedatos();
         lenin.imprimirInicialName();
+        lenin.imprimirInicialApellido();
 
     }
 

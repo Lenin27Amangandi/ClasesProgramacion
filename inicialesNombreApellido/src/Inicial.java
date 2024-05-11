@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Inicial {
 
     // Atributo
@@ -27,31 +26,28 @@ public class Inicial {
             System.out.println(caracterAImprimir);
         }
     }
-
-
-
-    
-    // public void imprimirInicialApellido() {
-    //     Scanner sc = new Scanner(System.in);
-    //     longitud = Integer.parseInt(sc.nextLine());
-
-    //     for (int i = 1; i < longitud; i++) {
-
-    //         System.out.println();
-
-    //         for (int j = 0; j < longitud; j++) {
-
-    //             if (condition) {
-                    
-    //             } else {
-                    
-    //             }
-
-                
-    //         }
-
-    //     }
-
-    // }
+//Metodo para imprimir inicial Apellido
+    public void imprimirInicialApellido() {
+        System.out.println();
+        System.out.println(" Inicial Apellido ");
+        System.out.println();
+        
+        for (int nivel = 1; nivel <= longitud; nivel++) {
+            for (int columna = 1; columna <= longitud; columna++) {
+                // Esta condición manejará la primera y la mitad de la línea
+                if ((nivel == 1 || nivel == longitud / 2 + 1) && columna <= longitud) {
+                    System.out.print(" * ");
+                } else {
+                    // nivel == 1 || columna == 1 || columna == longitud
+                    if ( columna == 1 || columna == longitud) {
+                        System.out.print(" * ");
+                    } else {
+                        System.out.print("   "); // Tres espacios para mantener la alineación
+                    }
+                }
+            }
+            System.out.println();
+        }
+    }
 
 }
