@@ -1,7 +1,7 @@
 public class DoWhileNombreApellidoLA {
-
     public void doWhileNombreApellido(int tamañoInicial, char signo) {
-        System.out.println("Iniciales L y A con do-while");
+        System.out.println();
+        System.out.println("Iniciales L y A con un do-while");
         int fila = 1;
         do {
             int columna = 1;
@@ -32,5 +32,4 @@ public class DoWhileNombreApellidoLA {
         } while (fila <= tamañoInicial);
         System.out.println();
     }
-
 }

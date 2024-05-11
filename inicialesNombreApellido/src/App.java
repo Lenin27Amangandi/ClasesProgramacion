@@ -1,30 +1,27 @@
 public class App {
     public static void main(String[] args) {
-        // Inicial lenin = new Inicial();
+        // Declaramos e instanciamos las varibles en el orden de tipo for,while y do
+        // while.
         ForNombreL inicialNombreFor = new ForNombreL();
         ForApellidoA inicialApellidoFor = new ForApellidoA();
         ForNombreApellidoLA inicialNombreApellidoFor = new ForNombreApellidoLA();
-
         WhileNombreL inicialNombreWhile = new WhileNombreL();
         WhileApellidoA inicialApellidoWhile = new WhileApellidoA();
         WhileNombreApellidoLA inicialNombreApellidoWhile = new WhileNombreApellidoLA();
-
         DoWhileNombreL inicialNombreDoWhile = new DoWhileNombreL();
         DoWhileApellidoA inicialApellidoDoWhile = new DoWhileApellidoA();
         DoWhileNombreApellidoLA inicialNombreApellidoDoWhile = new DoWhileNombreApellidoLA();
 
-        // Estos son los que funcan
-        inicialNombreFor.inicialNombre(9, '*');
-        inicialApellidoFor.inicialApellido(8, 'a');
-        inicialNombreApellidoFor.metodoChat(9, "*");
-
-        inicialNombreWhile.whileInicalNombre(7, 's');
-        inicialApellidoWhile.whileApellido(6, '*');
-        inicialNombreApellidoWhile.whileNombreApellidoLA(5, 'p');
-
-        inicialNombreDoWhile.doWhileNombre(4, 'd');
-        inicialApellidoDoWhile.doWhileApellido(10, 'v');
-        inicialNombreApellidoDoWhile.doWhileNombreApellido(8, 'h');
+        // Invocamos cada metodo creado en la srespectivas clases en el orden for,while
+        // y do-While
+        inicialNombreFor.inicialNombre(5, '*');
+        inicialApellidoFor.inicialApellido(5, '*');
+        inicialNombreApellidoFor.metodoChat(5, "*");
+        inicialNombreWhile.whileInicalNombre(5, '*');
+        inicialApellidoWhile.whileApellido(5, '*');
+        inicialNombreApellidoWhile.whileNombreApellidoLA(5, '*');
+        inicialNombreDoWhile.doWhileNombre(5, '*');
+        inicialApellidoDoWhile.doWhileApellido(5, '*');
+        inicialNombreApellidoDoWhile.doWhileNombreApellido(5, '*');
     }
-
 }

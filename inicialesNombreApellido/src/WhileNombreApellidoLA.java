@@ -1,6 +1,7 @@
 public class WhileNombreApellidoLA {
     public void whileNombreApellidoLA(int nivelDeseado, char signo) {
-        System.out.println("Iniciales L y A con while");
+        System.out.println();
+        System.out.println("Iniciales L y A con un while");
         int fila = 1;
         while (fila <= nivelDeseado) {
             int col = 1;

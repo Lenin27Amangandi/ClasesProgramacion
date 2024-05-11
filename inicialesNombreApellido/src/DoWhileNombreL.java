@@ -1,6 +1,7 @@
 public class DoWhileNombreL {
     public void doWhileNombre(int tamañoInicial, char signo) {
-        System.out.println("Inicial L con el do-while");
+        System.out.println();
+        System.out.println("Inicial L con un do-while");
         int filas = 1;
         do {
             if (filas == tamañoInicial) {

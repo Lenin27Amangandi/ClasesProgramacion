@@ -1,6 +1,7 @@
 public class DoWhileApellidoA {
     public void doWhileApellido(int tamañoInicial, char signo) {
-        System.out.println("Inicial A con do-while");
+        System.out.println();
+        System.out.println("Inicial A con un do-while");
         int fila = 1;
         do {
             int columna = 1;
