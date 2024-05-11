@@ -2,7 +2,7 @@ public class ForNombreApellidoLA {
 
     public void metodoChat(int nivelDeseado, String signo) {
 
-        System.out.println();
+        System.out.println("Inicales dek nombre y apellido");
         // Imprimir la letra L y la letra A juntas
         for (int fila = 1; fila <= nivelDeseado; fila++) {
             // Imprimir la letra L
