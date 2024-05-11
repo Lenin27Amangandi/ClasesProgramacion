@@ -1,25 +1,30 @@
 public class App {
     public static void main(String[] args) {
-
         // Inicial lenin = new Inicial();
-        ForNombreL inicialNombbre = new ForNombreL();
-        ForApellidoA inicalApellidoA = new ForApellidoA();
-        ForNombreApellidoLA inicialNombreApellidoLA = new ForNombreApellidoLA();
-        WhileNombreL whileInicialNombreL = new WhileNombreL();
-        WhileApellidoA whileInicalApellidoA = new WhileApellidoA();
-        WhileNombreApellidoLA while_Nombre_Apellido = new WhileNombreApellidoLA();
+        ForNombreL inicialNombreFor = new ForNombreL();
+        ForApellidoA inicialApellidoFor = new ForApellidoA();
+        ForNombreApellidoLA inicialNombreApellidoFor = new ForNombreApellidoLA();
 
-        // lenin.ingresodedatos();
-        // lenin.imprimirInicialName();
-        // lenin.imprimirInicialApellido();
+        WhileNombreL inicialNombreWhile = new WhileNombreL();
+        WhileApellidoA inicialApellidoWhile = new WhileApellidoA();
+        WhileNombreApellidoLA inicialNombreApellidoWhile = new WhileNombreApellidoLA();
+
+        DoWhileNombreL inicialNombreDoWhile = new DoWhileNombreL();
+        DoWhileApellidoA inicialApellidoDoWhile = new DoWhileApellidoA();
+        DoWhileNombreApellidoLA inicialNombreApellidoDoWhile = new DoWhileNombreApellidoLA();
 
         // Estos son los que funcan
-        inicialNombbre.inicialNombre(9, '*');
-        inicalApellidoA.inicialApellido(8, 'a');
-        inicialNombreApellidoLA.metodoChat(9, "*");
-        whileInicialNombreL.whileInicalNombre(7, 's');
-        whileInicalApellidoA.whileApellido(6, '*');
-        while_Nombre_Apellido.whileNombreApellidoLA(5, 'p');
+        inicialNombreFor.inicialNombre(9, '*');
+        inicialApellidoFor.inicialApellido(8, 'a');
+        inicialNombreApellidoFor.metodoChat(9, "*");
+
+        inicialNombreWhile.whileInicalNombre(7, 's');
+        inicialApellidoWhile.whileApellido(6, '*');
+        inicialNombreApellidoWhile.whileNombreApellidoLA(5, 'p');
+
+        inicialNombreDoWhile.doWhileNombre(4, 'd');
+        inicialApellidoDoWhile.doWhileApellido(10, 'v');
+        inicialNombreApellidoDoWhile.doWhileNombreApellido(8, 'h');
     }
 
 }

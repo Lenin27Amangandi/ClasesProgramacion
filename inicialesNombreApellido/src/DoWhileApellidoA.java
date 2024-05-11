@@ -1,11 +1,10 @@
-public class WhileApellidoA {
-
-    public void whileApellido(int tamañoInicial, char signo) {
-        System.out.println("Inicial A con While");
+public class DoWhileApellidoA {
+    public void doWhileApellido(int tamañoInicial, char signo) {
+        System.out.println("Inicial A con do-while");
         int fila = 1;
-        while (fila <= tamañoInicial) {
+        do {
             int columna = 1;
-            while (columna <= tamañoInicial) {
+            do {
                 if ((fila == 1 || fila == tamañoInicial / 2 + 1) && columna <= tamañoInicial) {
                     System.out.print(" " + signo + " ");
                 } else {
@@ -16,9 +15,9 @@ public class WhileApellidoA {
                     }
                 }
                 columna++;
-            }
+            } while (columna <= tamañoInicial);
             System.out.println();
             fila++;
-        }
+        } while (fila <= tamañoInicial);
     }
 }
