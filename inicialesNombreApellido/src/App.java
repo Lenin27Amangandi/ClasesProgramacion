@@ -16,7 +16,7 @@ public class App {
         // y do-While
         inicialNombreFor.inicialNombre(5, '*');
         inicialApellidoFor.inicialApellido(5, '*');
-        inicialNombreApellidoFor.metodoChat(5, "*");
+        inicialNombreApellidoFor.forNombreApellido(5, "*");
         inicialNombreWhile.whileInicalNombre(5, '*');
         inicialApellidoWhile.whileApellido(5, '*');
         inicialNombreApellidoWhile.whileNombreApellidoLA(5, '*');

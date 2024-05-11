@@ -1,5 +1,5 @@
 public class ForNombreApellidoLA {
-    public void metodoChat(int nivelDeseado, String signo) {
+    public void forNombreApellido(int nivelDeseado, String signo) {
         System.out.println();
         System.out.println("Inicales L y A con un For");
         for (int fila = 1; fila <= nivelDeseado; fila++) {
