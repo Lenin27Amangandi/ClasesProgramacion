@@ -61,7 +61,7 @@ public class inicialNombreApellido {
     }
 
     public void nombreApellidoDoWhile(){
-        System.out.println("DO WHILE:   ");
+        System.out.println("DO WHILE:    ");
        int altura =6;
        int i = 0;
        do {
