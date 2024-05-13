@@ -2,6 +2,7 @@ public class nombreApellido {
 
     public static void main(String[] args)throws Exception{
 
+
         inicialNombre iN;
         inicialApellido iA;
         inicialNombreApellido iAN;
@@ -10,6 +11,7 @@ public class nombreApellido {
         iN = new inicialNombre();
         iA= new inicialApellido();
         iAN = new inicialNombreApellido();
+        
         
         iN.nombreFor();
         iN.nombreWhile();
