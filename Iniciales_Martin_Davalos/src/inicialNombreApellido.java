@@ -90,6 +90,6 @@ public class inicialNombreApellido {
             }
             System.out.println(); 
             i++;
-       } while (i<altura);
+        } while (i<altura);
     }
 }
