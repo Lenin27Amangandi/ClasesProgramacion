@@ -12,7 +12,6 @@ public class inicialNombre {
                 }
             }
             System.out.println();
-            
         }
     }
 
@@ -51,14 +50,8 @@ public class inicialNombre {
             }
             System.out.println();
              i++;    
-
-
         } while (i<altura);
-
-
     }
-
-
 }
 
 
